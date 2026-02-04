@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+img{
+    height:300px;
+    width:300px;
+    border:2px solid black;
+    border-radius: 20%;
+    margin-left: 610px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+p{
+    font-style: italic;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: red;
+    transition: 2s;
+    cursor: pointer;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+button:hover{
+
+background-color: aquamarine;
+color:black
+}
+table{
+    border:3px solid black;
+    margin:10px auto;
+    border-collapse: collapse;
+}
+table thead tr th{
+    border:2px solid black;
+    text-align: center;
+    padding:20px;
+}
+table tbody tr td{
+      border:2px solid black;
+    text-align: center;
+    padding:8px;
+    margin:5px;
+}
